@@ -3,6 +3,8 @@ name: Acquire Unity activation file
 on:
   workflow_dispatch:
 
+# 生成 .alf 手动激活请求文件，用于换取 Unity Personal 许可证 .ulf
+
 jobs:
   activation:
     name: Request manual activation file (.alf)
